@@ -163,7 +163,11 @@
       </div>
       <!-- End telegram Icon -->
 
-
+      <!-- Start telegram Icon -->
+      <div id="whatsapp" onclick="navigate(this.id)" class="social">
+        <span class="icon whatsapp"><i class="fab fa-whatsapp"></i></span>
+      </div>
+      <!-- End telegram Icon -->
 
     </div>
 
@@ -208,6 +212,9 @@
         }
         else if (id === "telegram") {
           window.open("https://web.telegram.org/", '_blank').focus(); //Add the url to your telegram account
+        }
+        else if (id === "whatsapp") {
+          window.open("https://wa.me/+4916092522371", '_blank').focus(); //Add the url to your telegram account
         }
       }
 
